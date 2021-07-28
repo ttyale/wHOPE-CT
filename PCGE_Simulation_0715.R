@@ -310,7 +310,7 @@ end_time - start_time
 #load the data and name it x1
 x1-readRDS("")
 
-burnin=1500
+burnin=2000
 
 #posterior median and mean
 median(x1$BETA[1,-c(1:burnin)])
