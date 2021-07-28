@@ -218,25 +218,21 @@ sim<-function(rho1=0.01, rho2=0.10, v="v1",u="u1",nsim=1000){
 #setwd("")
 
 #V1U2
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.01, v="v1", u="u2",nsim=1000),"PCGE_V1U2_ICC001_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.10, v="v1", u="u2",nsim=1000),"PCGE_V1U2_ICC001_010.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.01, v="v1", u="u2",nsim=1000),"PCGE_V1U2_ICC010_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.10, v="v1", u="u2",nsim=1000),"PCGE_V1U2_ICC010_010.RDS")
 end_time <- Sys.time()
@@ -244,25 +240,21 @@ end_time - start_time
 
 
 #V2U2
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.01, v="v2", u="u2",nsim=1000),"PCGE_V2U2_ICC001_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.10, v="v2", u="u2",nsim=1000),"PCGE_V2U2_ICC001_010.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.01, v="v2", u="u2",nsim=1000),"PCGE_V2U2_ICC010_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.10, v="v2", u="u2",nsim=1000),"PCGE_V2U2_ICC010_010.RDS")
 end_time <- Sys.time()
@@ -270,25 +262,21 @@ end_time - start_time
 
 
 #V1U1
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.01, v="v1", u="u1",nsim=1000),"PCGE_V1U1_ICC001_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.10, v="v1", u="u1",nsim=1000),"PCGE_V1U1_ICC001_010.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.01, v="v1", u="u1",nsim=1000),"PCGE_V1U1_ICC010_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.10, v="v1", u="u1",nsim=1000),"PCGE_V1U1_ICC010_010.RDS")
 end_time <- Sys.time()
@@ -296,25 +284,21 @@ end_time - start_time
 
 
 #V2U1
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.01, v="v2", u="u1",nsim=1000),"PCGE_V2U1_ICC001_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.01, rho2=0.10, v="v2", u="u1",nsim=1000),"PCGE_V2U1_ICC001_010.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.01, v="v2", u="u1",nsim=1000),"PCGE_V2U1_ICC010_001.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho1=0.10, rho2=0.10, v="v2", u="u1",nsim=1000),"PCGE_V2U1_ICC010_010.RDS")
 end_time <- Sys.time()
