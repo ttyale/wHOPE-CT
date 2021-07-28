@@ -486,7 +486,6 @@ sim<-function(rho=0.01,condition="w6",nsim=1000){
 #setwd("") #set working directory
 
 #run simulation for each mapping matrix and ICC.
-set.seed(20210704)
 start_time <- Sys.time()
 saveRDS(sim(rho=0.01,condition="w6",nsim=1000),"W6_WHT_ICC001.RDS")
 saveRDS(sim(rho=0.02,condition="w6",nsim=1000),"W6_WHT_ICC002.RDS")
@@ -497,7 +496,6 @@ saveRDS(sim(rho=0.15,condition="w6",nsim=1000),"W6_WHT_ICC015.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20210704)
 start_time <- Sys.time()
 saveRDS(sim(rho=0.01,condition="w5",nsim=1000),"W5_WHT_ICC001.RDS")
 saveRDS(sim(rho=0.02,condition="w5",nsim=1000),"W5_WHT_ICC002.RDS")
@@ -508,7 +506,6 @@ saveRDS(sim(rho=0.15,condition="w5",nsim=1000),"W5_WHT_ICC015.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20210704)
 start_time <- Sys.time()
 saveRDS(sim(rho=0.01,condition="w4",nsim=1000),"W4_WHT_ICC001.RDS")
 saveRDS(sim(rho=0.02,condition="w4",nsim=1000),"W4_WHT_ICC002.RDS")
@@ -519,7 +516,6 @@ saveRDS(sim(rho=0.15,condition="w4",nsim=1000),"W4_WHT_ICC015.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20210704)
 start_time <- Sys.time()
 saveRDS(sim(rho=0.01,condition="w3",nsim=1000),"W3_WHT_ICC001.RDS")
 saveRDS(sim(rho=0.02,condition="w3",nsim=1000),"W3_WHT_ICC002.RDS")
@@ -530,7 +526,6 @@ saveRDS(sim(rho=0.15,condition="w3",nsim=1000),"W3_WHT_ICC015.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20210704)
 start_time <- Sys.time()
 saveRDS(sim(rho=0.01,condition="w2",nsim=1000),"W2_WHT_ICC001.RDS")
 saveRDS(sim(rho=0.02,condition="w2",nsim=1000),"W2_WHT_ICC002.RDS")
@@ -541,7 +536,6 @@ saveRDS(sim(rho=0.15,condition="w2",nsim=1000),"W2_WHT_ICC015.RDS")
 end_time <- Sys.time()
 end_time - start_time
 
-set.seed(20201202)
 start_time <- Sys.time()
 saveRDS(sim(rho=0.01,condition="w1",nsim=1000),"W1_WHT_ICC001.RDS")
 saveRDS(sim(rho=0.02,condition="w1",nsim=1000),"W1_WHT_ICC002.RDS")
@@ -555,7 +549,7 @@ end_time - start_time
 
 ##------------------------------------------------------------------------------
 ##Result summary
-burnin=1000
+burnin=2000
 
 #Scenario 1
 x1<-readRDS("W1_WHT_ICC001.RDS")
